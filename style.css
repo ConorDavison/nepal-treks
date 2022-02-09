@@ -12,21 +12,29 @@ html, body{
     font-family: "Jura", sans-serif;
   }
   
-.overlay {
-    background-color: #CCD5AE;
-}
+
 /* End of Common Styles */
 
 /* nav */
+.header-area{
+  background-color: black;
+  color: pink;
+}
+
 .header-area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
   }
 
-  .header-area .main-menu .nav-item .nav-link {
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: 1.7rem;
-    color: black;
+#title {
+  color: pink;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: pink;
+  background-color: black;
   }
 
   .header-area .main-menu .navbar-nav .active {
@@ -36,12 +44,21 @@ html, body{
   .header-area .main-menu .navbar-nav :hover {
     background: #FEFAE0;
   }
+
+  .navbar-toggler{
+    background-color: pink;
+  }
   /* end of nav */
 
   /* hero img */
   .hero {
-    background-image: url(./imgs/85a34d30-974d-4f1f-94db-c0c8c87bbc3d.JPG); 
+    background: url(./imgs/85a34d30-974d-4f1f-94db-c0c8c87bbc3d.JPG), no-repeat center; 
     height: 100vh;
-    background-size: cover;   
+    background-size: cover; 
+    background-attachment: fixed; 
+  }
+
+  #hero-text {
+    background-color: rgba(229, 206, 220, 0.6);
   }
   /* end of hero  */
