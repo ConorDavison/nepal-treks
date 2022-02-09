@@ -39,7 +39,9 @@ html, body{
   /* end of nav */
 
   /* hero img */
-  .hero-img {
-    
+  .hero {
+    background-image: url(./imgs/85a34d30-974d-4f1f-94db-c0c8c87bbc3d.JPG); 
+    height: 100vh;
+    background-size: cover;   
   }
   /* end of hero  */
