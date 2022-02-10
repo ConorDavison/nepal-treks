@@ -51,11 +51,9 @@ html, body{
   /* end of nav */
 
   /* hero img */
-  .hero {
-    background: url(./imgs/85a34d30-974d-4f1f-94db-c0c8c87bbc3d.JPG), no-repeat center; 
-    height: 100vh;
-    background-size: cover; 
-    background-attachment: fixed; 
+  .hero-img {
+    z-index: -1;
+    width: 100%;
   }
 
   #hero-text {
