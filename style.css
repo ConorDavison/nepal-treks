@@ -10,6 +10,7 @@ html, body{
     height: 100%;
     box-sizing: border-box;
     font-family: "Jura", sans-serif;
+    overflow-x: hidden;
   }
   
 
@@ -51,12 +52,38 @@ html, body{
   /* end of nav */
 
   /* hero img */
-  .hero-img {
-    z-index: -1;
-    width: 100%;
+
+  .cover {
+    background: no-repeat center/cover;
   }
 
-  #hero-text {
-    background-color: rgba(229, 206, 220, 0.6);
+  .hero {
+    background-attachment: fixed;
+    transition: transform 0.5s ease-in-out;
   }
+  
+  .hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .hero .container-fluid {
+    z-index: 10;
+  }
+
+ .caption {
+   background-color: rgba(255, 206, 220, 0.7);
+ }
   /* end of hero  */
+
+  /* about section */
+  .about-section {
+    background-color: black;
+    color: pink;
+    padding: 5px;
+  }
+  /* end of about section */
