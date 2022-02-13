@@ -56,20 +56,6 @@ html, body{
   .cover {
     background: no-repeat center/cover;
   }
-
-  .hero {
-    background-attachment: fixed;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .hero::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
   
   .hero .container-fluid {
     z-index: 10;
@@ -85,5 +71,10 @@ html, body{
     background-color: black;
     color: pink;
     padding: 5px;
+    height: 300px;
+  }
+
+  .hidden {
+    opacity: 0;
   }
   /* end of about section */
