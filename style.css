@@ -53,6 +53,10 @@ html, body{
 
   /* hero img */
 
+  #hero {
+    object-fit: contain;
+  }
+
   .cover {
     background: no-repeat center/cover;
   }
@@ -72,9 +76,16 @@ html, body{
     color: pink;
     padding: 5px;
     height: 300px;
+    border: 5px solid pink;
   }
 
-  .hidden {
-    opacity: 0;
+  .about-header {
+    color: pink;
+    text-decoration: none;
+  }
+
+  .para {
+    font-size: large;
+    overflow: auto;
   }
   /* end of about section */

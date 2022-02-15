@@ -1,33 +1,16 @@
-let aboutHeading = document.getElementById('about-heading');
-
-console.log(aboutHeading.getBoundingClientRect());
-
-function isVisible(element) {
-    let elementBox = element.getBoundingClientRect();
-    let distanceFromTop = -200; 
-
-    if(elementBox.top - window.innerHeight < distanceFromTop) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function scanDocument() {
-    let sectionList = document.querySelectorAll('.hidden');
-    sectionList.forEach(function(section) {
-        if(isVisible(section)) {
-            section.classList.remove('hidden');
-        };
-    });
-
-    //console.log(numberOfScans);
-    //numberOfScans++;
-}
-
-
-document.addEventListener("scroll", scanDocument);
-
-
-
-   
+$(window).on("load",function() {
+    $(window).scroll(function() {
+      var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+      $(".fade").each(function() {
+        /* Check the location of each desired element */
+        var objectBottom = $(this).offset().top + $(this).outerHeight();
+        
+        /* If the element is completely within bounds of the window, fade it in */
+        if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+          if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+        } else { //object goes out of view (scrolling up)
+          if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+        }
+      });
+    }).scroll(); //invoke scroll-handler on page-load
+  });
