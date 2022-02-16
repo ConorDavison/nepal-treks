@@ -90,3 +90,17 @@ html, body{
     margin-bottom: 20px;
   }
   /* end of about section */
+
+  .treks-section {
+    background-color: rgba(255, 206, 220, 0.7);
+    color: black;
+    padding: 5px;
+    height: auto;
+    border: 5px solid black;
+  }
+
+  .trek-card {
+    margin:auto;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px;;
+  }
