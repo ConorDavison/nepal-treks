@@ -110,3 +110,10 @@ html, body{
     width: 500px;
     margin: auto;
   }
+
+
+  /* body fade */
+.fade-transition {
+    transition-property: opacity; 
+    transition-duration: 2s; 
+    }
