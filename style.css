@@ -113,7 +113,7 @@ html, body{
 
 
   /* body fade */
-.fade-transition {
-    transition-property: opacity; 
-    transition-duration: 2s; 
-    }
+#wrapper {
+  display:none;
+}
+

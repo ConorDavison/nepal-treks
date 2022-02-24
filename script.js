@@ -1,4 +1,4 @@
 //body to fade in//
-$('body').onload(function(){
-  $('body').fadeIn('slow');
-})
+$(document).ready(function(){
+  $('#wrapper').fadeIn(1000);
+});
