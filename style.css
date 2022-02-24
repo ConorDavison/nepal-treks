@@ -102,12 +102,33 @@ html, body{
     border: 5px solid black;
   }
 
+  .card-text {
+    height: 200px;
+    margin: auto;
+  }
+
   .trek-card {
     margin: 15px;
     box-shadow: 2px 2px;;
   }
 
+  .card-img-top {
+    max-height: 150px;
+  }
+
   #slider {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+  }
+
+  #slider1 {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+  }
+
+  #slider2 {
     height: 500px;
     width: 500px;
     margin: auto;
