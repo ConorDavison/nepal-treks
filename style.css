@@ -116,6 +116,20 @@ html, body{
     max-height: 150px;
   }
 
+  .trek-container {
+    border: solid 3px black;
+    margin: 20px 10px 20px 10px;
+    background-color: black;
+    color: pink;
+  }
+
+  .trek-table {
+    font-size: large;
+    width: 250px;
+    height: 150px;
+    color: pink;
+  }
+
   #slider {
     height: 500px;
     width: 500px;
