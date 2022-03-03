@@ -149,6 +149,12 @@ html, body{
     margin: auto;
   }
 
+  #slider3 {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+  }
+
 
   /* body fade */
 #wrapper {
