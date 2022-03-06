@@ -59,6 +59,7 @@ html, body{
 
   .cover {
     background: no-repeat center/cover;
+    background-attachment: fixed;
   }
   
   .hero .container-fluid {
