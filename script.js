@@ -11,6 +11,9 @@ mybutton.addEventListener("click", function () {
   $('html, body').animate({ scrollTop: 0 }, "slow");
 });
 
+document.body.onload = function() {
+  alert('Hello Trekkers!');
+}
 
 
 
