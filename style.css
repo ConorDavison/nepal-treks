@@ -183,6 +183,21 @@ html, body{
 }
 /* end of back to top button */
 
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: black;
+  color: pink;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 30px;
+}
 
-
-
+/* Add a background color to the button if it is clicked on */
+.active, .collapsible:hover {
+  background-color: pink;
+  color: black;
+}
