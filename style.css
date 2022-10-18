@@ -155,6 +155,11 @@ html, body{
     margin: auto;
   }
 
+  .info-btn {
+    background-color: black;
+    color: pink;
+  }
+
 
   /* body fade */
 #wrapper {
