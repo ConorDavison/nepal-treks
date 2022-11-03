@@ -206,3 +206,8 @@ html, body{
   background-color: pink;
   color: black;
 }
+
+.weather-section {
+  background-color: black;
+  color: pink;
+}
